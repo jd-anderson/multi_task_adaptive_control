@@ -28,7 +28,66 @@ Theoretical analysis shows that the expected regret for any honest system in clu
 
 $$\mathbb{E}[R_T^{(i)}] = \tilde{\mathcal{O}}\left(\frac{\sqrt{dT}}{m_j}+ \lambda\sqrt{dT}+ \epsilon_{\mathrm{het}}^2 T\right)$$
 
+
+## Simultions
+
+<!-- 2×3 gallery; requires PNGs in /figures. If only PDFs exist, the links below still work. -->
+<table>
+  <tr>
+    <td align="center">
+      <img src="figures/fig1_homogeneous_overlay.png" width="380"><br>
+      <sub><b>(a) Homogeneous clusters</b> — collaboration reduces regret ≈ 1/√(cluster size).</sub>
+    </td>
+    <td align="center">
+      <img src="figures/fig2_hetrogeneous_overlay.png" width="380"><br>
+      <sub><b>(b) Heterogeneous clusters</b> — bias floor ∝ ε<sub>het</sub><sup>2</sup>·T.</sub>
+    </td>
+  </tr>
+  <tr>
+    <td align="center">
+      <img src="figures/fig3_misclassification_overlay.png" width="380"><br>
+      <sub><b>(c) Misclassification rate</b> — decays rapidly with more data per cluster.</sub>
+    </td>
+    <td align="center">
+      <img src="figures/fig5_byzantine_ratios.png" width="380"><br>
+      <sub><b>(d) Adversarial ratios</b> — sublinear regret sustained up to 30% corruption.</sub>
+    </td>
+  </tr>
+  <tr>
+    <td align="center">
+      <img src="figures/fig6_aggregation_compare.png" width="380"><br>
+      <sub><b>(e) Aggregators</b> — trimmed mean vs geometric median (λ-resilient).</sub>
+    </td>
+    <td align="center">
+      <img src="figures/fig6_sharedrepresentation.png" width="380"><br>
+      <sub><b>(f) Shared representation</b> — RCSI remains robust without a global model.</sub>
+    </td>
+  </tr>
+</table>
+
+<!-- Fallback: direct links to your existing PDFs (works even without PNGs) -->
+<details>
+  <summary><em>PDF Quality? Open the PDF versions</em></summary>
+
+- (a) Homogeneous: [`figures/fig1_homogeneous_overlay.pdf`](figures/fig1_homogeneous_overlay.pdf)  
+- (b) Heterogeneous: [`figures/fig2_hetrogeneous_overlay.pdf`](figures/fig2_hetrogeneous_overlay.pdf)  
+- (c) Misclassification: [`figures/fig3_misclassification_overlay.pdf`](figures/fig3_misclassification_overlay.pdf)  
+- (d) Byzantine ratios: [`figures/fig5_byzantine_ratios.pdf`](figures/fig5_byzantine_ratios.pdf)  
+- (e) Aggregation compare: [`figures/fig6_aggregation_compare.pdf`](figures/fig6_aggregation_compare.pdf)  
+- (f) Shared representation: [`figures/fig6:sharedrepresentation.pdf`](figures/fig6:sharedrepresentation.pdf)
+</details>
+
+---
+
 ## Instructions
+
+To reproduce the results and figures:
+
+### 1) Environment
+```bash
+# (optional) create a clean environment
+python -m venv .venv && source .venv/bin/activate   # Windows: .venv\Scripts\activate
+pip install -r requirements.txt
 
 To run the codes in this repository, you only need a working Jupyter installation.
 

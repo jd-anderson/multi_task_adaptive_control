@@ -3,9 +3,9 @@
 
 This repository includes the code to reproduce the experimental results of the following paper:
 
-1) K. Fallah*, L. F. Toso*, J. Anderson (2025). [Adversarially Robust Multitask Adaptive Control](https://github.com/jd-anderson/PG-LQG/blob/main/PG-LQG.pdf)
+1) K. Fallah*, L. F. Toso*, J. Anderson (2025). [Adversarially Robust Multitask Adaptive Control]()
 
-*:Alphabetical equal contribution.
+^* = Alphabetical equal contribution.
 ## Overview
 
 This repository implements the **adversarially robust multitask adaptive** framework proposed in our paper.  

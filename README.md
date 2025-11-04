@@ -87,3 +87,25 @@ To run the codes in this repository, you only need a working Jupyter installatio
 ## Troubleshooting
 
 If you have any trouble running those codes or have any questions about the paper, please email [Kasra Fallah](mailto:kasra.fallah@columbia.edu). 
+
+
+##  Citation
+
+If you find this repository useful or use our results in your research, please consider citing:
+
+> **Kasra Fallah\*, Leonardo F. Toso\*, and James Anderson.**  
+> *Adversarially Robust Multitask Adaptive Linear Quadratic Control.*  
+> 2025. [arXiv:XXXX.XXXXX](https://arxiv.org/abs/XXXX.XXXXX).  
+> (\*Alphabetical equal contribution)
+
+You can cite the paper using the following BibTeX entry:
+
+```bibtex
+@article{fallah2025adversarial,
+  title   = {Adversarially Robust Multitask Adaptive Linear Quadratic Control},
+  author  = {Kasra Fallah and Leonardo F. Toso and James Anderson},
+  journal = {arXiv preprint arXiv:XXXX.XXXXX},
+  year    = {2025},
+  note    = {Alphabetical equal contribution}
+}
+

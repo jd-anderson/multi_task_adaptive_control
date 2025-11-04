@@ -81,15 +81,8 @@ $$\mathbb{E}[R_T^{(i)}] = \tilde{\mathcal{O}}\left(\frac{\sqrt{dT}}{m_j}+ \lambd
 
 ## Instructions
 
-To reproduce the results and figures:
-
-### 1) Environment
-```bash
-# (optional) create a clean environment
-python -m venv .venv && source .venv/bin/activate   # Windows: .venv\Scripts\activate
-pip install -r requirements.txt
-
 To run the codes in this repository, you only need a working Jupyter installation.
+
 
 ## Troubleshooting
 

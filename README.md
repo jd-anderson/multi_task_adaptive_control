@@ -35,31 +35,31 @@ $$\mathbb{E}[R_T^{(i)}] = \tilde{\mathcal{O}}\left(\frac{\sqrt{dT}}{m_j}+ \lambd
 <table>
   <tr>
     <td align="center">
-      <img src="figures/fig1_homogeneous_overlay.png" width="380"><br>
+      <img src="figures/png/fig1_homogeneous_overlay.png" width="380"><br>
       <sub><b>(a) Homogeneous clusters</b> — collaboration reduces regret ≈ 1/√(cluster size).</sub>
     </td>
     <td align="center">
-      <img src="figures/fig2_hetrogeneous_overlay.png" width="380"><br>
+      <img src="figures/png/fig2_hetrogeneous_overlay.png" width="380"><br>
       <sub><b>(b) Heterogeneous clusters</b> — bias floor ∝ ε<sub>het</sub><sup>2</sup>·T.</sub>
     </td>
   </tr>
   <tr>
     <td align="center">
-      <img src="figures/fig3_misclassification_overlay.png" width="380"><br>
+      <img src="figures/png/fig3_misclassification_overlay.png" width="380"><br>
       <sub><b>(c) Misclassification rate</b> — decays rapidly with more data per cluster.</sub>
     </td>
     <td align="center">
-      <img src="figures/fig5_byzantine_ratios.png" width="380"><br>
+      <img src="figures/png/fig5_byzantine_ratios.png" width="380"><br>
       <sub><b>(d) Adversarial ratios</b> — sublinear regret sustained up to 30% corruption.</sub>
     </td>
   </tr>
   <tr>
     <td align="center">
-      <img src="figures/fig6_aggregation_compare.png" width="380"><br>
+      <img src="figures/png/fig6_aggregation_compare.png" width="380"><br>
       <sub><b>(e) Aggregators</b> — trimmed mean vs geometric median (λ-resilient).</sub>
     </td>
     <td align="center">
-      <img src="figures/fig6_sharedrepresentation.png" width="380"><br>
+      <img src="figures/png/fig6:sharedrepresentation.png" width="380"><br>
       <sub><b>(f) Shared representation</b> — RCSI remains robust without a global model.</sub>
     </td>
   </tr>

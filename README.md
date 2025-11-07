@@ -3,7 +3,7 @@
 
 This repository includes the code to reproduce the experimental results of the following paper:
 
-1) K. Fallah*, L. F. Toso*, J. Anderson (2025). [Adversarially Robust Multitask Adaptive Control]()
+1) K. Fallah*, L. F. Toso*, J. Anderson (2025). [Adversarially Robust Multitask Adaptive Control](https://github.com/jd-anderson/multi_task_adaptive_control/blob/main/paper/arxiv.pdf)
 
 ^* = Alphabetical equal contribution.
 ## Overview

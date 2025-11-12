@@ -95,7 +95,7 @@ If you find this repository useful or use our results in your research, please c
 
 > **Kasra Fallah\*, Leonardo F. Toso\*, and James Anderson.**  
 > *Adversarially Robust Multitask Adaptive Linear Quadratic Control.*  
-> 2025. [arXiv:XXXX.XXXXX](https://arxiv.org/abs/XXXX.XXXXX).  
+> 2025. [arXiv:2511.05444](https://arxiv.org/abs/2511.05444).  
 > (\*Alphabetical equal contribution)
 
 You can cite the paper using the following BibTeX entry:
@@ -104,7 +104,7 @@ You can cite the paper using the following BibTeX entry:
 @article{fallah2025adversarial,
   title   = {Adversarially Robust Multitask Adaptive Linear Quadratic Control},
   author  = {Kasra Fallah and Leonardo F. Toso and James Anderson},
-  journal = {arXiv preprint arXiv:XXXX.XXXXX},
+  journal = {arXiv preprint arXiv:2511.05444},
   year    = {2025},
   note    = {Alphabetical equal contribution}
 }

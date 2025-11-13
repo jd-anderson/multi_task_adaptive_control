@@ -29,7 +29,7 @@ Theoretical analysis shows that the expected regret for any honest system in clu
 $$\mathbb{E}[R_T^{(i)}] = \tilde{\mathcal{O}}\left(\frac{\sqrt{dT}}{m_j}+ \lambda\sqrt{dT}+ \epsilon_{\mathrm{het}}^2 T\right)$$
 
 
-## Simultions
+## Simulations
 
 <!-- 2×3 gallery; requires PNGs in /figures. If only PDFs exist, the links below still work. -->
 <table>
